@@ -1,0 +1,2 @@
+# G32-WEB1201-MINDFUL-LIVING
+Final Project - WEB 1201
