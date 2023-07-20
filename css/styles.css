@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* NAVBAR START */
+.section-1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/homepage-img/green-bg.jpg);
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+}
+
+.nav-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.left-nav{ /* left side of nav -- logo and categories */
+    display: flex;
+    align-items: center;
+    gap: 50px; 
+}
+
+.left-nav h2 a{
+    color: #E85A4F;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: #EFF4F0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: lighter;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: #E85A4F;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.right-nav button{ /* right side of nav -- icons*/
+    color:#09282A;
+    border: 0.5px solid #09282A;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 90px;
+    padding: 10px 0;
+    transition: 0.4s;
+}
+
+.login:hover{
+    color:#ffffff;
+    border: 0.5px solid #09282A;
+    background-color:#09282A;  
+}
+/* NAVBAR END */
+
+
+/* CONTENT START */
+.container{
+    display: flex;
+    margin-top: 4%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.intro{
+    flex: 10;
+    margin-right: 35px;
+    margin-top: 35px;
+}
+
+.container .intro h1{
+    color: #EFF4F0;
+    font-size: 70px;
+}
+
+.container .intro p{
+    color: #EFF4F0;
+    margin-top: 25px;
+    line-height: 1.35;
+}
+
+.btn{
+    background-color: #E85A4F;
+    display: inline-block;
+    border: none;
+    border-radius: 25px;
+    padding: 13px 115px;
+    margin: 35px 2px;
+    font-size: 12px;
+    color: #202020;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    background-color: rgba(255,255,255,0);
+    color: #E85A4F;
+    border: 1px solid #E85A4F;
+}
+
+.img{
+    flex: 90;
+}
+
+.img img{
+    border-radius: 30px;
+}
+/* CONTENT END */
+
+/* SECTION 2 - TRENDING THIS WEEK */
+.section-2{
+    height: 100vh;
+    width: 100%;
+}
+
+.section-2 h1{
+    margin-top: 7%;
+}

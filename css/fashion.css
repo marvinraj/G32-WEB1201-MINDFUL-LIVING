@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* NAVBAR START */
+.nav-2{ /* navbar for other pages */
+    background-image: url(../images/fashion-img/green-bg.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.left-nav{ /* left side of nav -- logo and categories */
+    display: flex;
+    align-items: center;
+    gap: 50px; 
+}
+
+.left-nav h2 a{
+    color: #E85A4F;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: #EFF4F0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: lighter;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: #E85A4F;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.right-nav button{ /* right side of nav -- icons*/
+    color:#EFF4F0;
+    border: 0.5px solid #EFF4F0;
+    background-color: rgba(255,255,255,0);
+    cursor: pointer;
+    border-radius: 20px;
+    width: 90px;
+    padding: 10px 0;
+    transition: 0.4s;
+}
+
+.login:hover{
+    color:#09282A;
+    border: 0.5px solid #09282A;
+    background-color:#EFF4F0;  
+}
+/* NAVBAR END */
