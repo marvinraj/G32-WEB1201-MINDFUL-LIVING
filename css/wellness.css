@@ -1,9 +1,25 @@
+
+
+@font-face {
+    font-family: Lora;
+    src : url(../fonts/Lora2.ttf);
+}
+@font-face {
+    font-family: Comfortaa;
+    src : url(../fonts/Comfortaa.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: Lora !important ;
+    
 }
+
+
+
 
 /* NAVBAR START */
 .nav-2{ /* navbar for other pages */
@@ -15,6 +31,7 @@
     padding-bottom: 20px;
     padding-left: 6%;
     padding-right: 6%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .left-nav{ /* left side of nav -- logo and categories */
@@ -71,4 +88,198 @@ nav ul li a:hover{
     border: 0.5px solid #09282A;
     background-color:#EFF4F0;  
 }
+.logo a{
+    font-family: Lora;
+    font-weight: normal;
+}
 /* NAVBAR END */
+
+/*Heading*/
+.Title-heading{
+    text-align:center;
+    font-family: Lora;
+    padding-top: 53px;
+}
+
+
+
+.image-container{
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+    padding-top: 35px;
+    text-align: center;
+}
+.section-2{
+    padding-top:156px;
+    text-align: center;
+}
+.section-2-image-box{
+    display: flex;
+    gap:25px;
+    justify-content: center;
+    padding-top: 53px ;
+}
+
+
+.sub-image-container{
+    height: 499.11px;
+    width:366px;
+    font-size:13.5px;
+    
+}
+.sub-image-container p{
+    font-size:10px;
+    font-family: Comfortaa !important;
+    font-weight: normal;
+    color: #E85A4F;
+    padding-top: 14px;
+    
+    
+}
+.sub-image-container h3{
+    font-size:13.5px;
+    padding-top: 23px;
+    
+    
+}
+
+.section-2-image-container{
+    height: 424.66px;
+    width:247px;
+    text-align:center;
+    
+
+}
+.section-2-image-container h2,.section-3-image-container h2{
+    font-size:9px;
+    padding-top: 21px;
+    font-family: Comfortaa !important;
+    
+}
+.section-2-image-container h3, .section-3-image-container h3{
+    font-size:15px;
+    padding-top: 11px;
+    
+}
+.section-2-image-container p{
+    font-size: 10px;
+    
+}
+.section-3-image-container p,.section-2-image-container p{
+    color: #E85A4F;
+    font-family: Comfortaa !important;
+    font-size: 9px;
+    padding-top: 23px;
+}
+
+
+
+.section-3-image-box{
+    display: flex;
+    gap:25px;
+    justify-content: center;
+    padding-top: 86px ;
+    padding-bottom: 117px;
+}
+
+
+
+.section-3-image-container{
+    height: 424.66px;
+    width:247px;
+    text-align:center;
+
+}
+.section-3-image-container h2{
+    font-size:9px;
+    padding-top: 21px;
+}
+.section-3-image-container h3{
+    font-size:15px;
+}
+
+.section-3-image-container h2{
+    color: #E85A4F;
+}
+.section-2-image-container h2{
+    color: #E85A4F;
+}
+
+.Footer{
+    height: 336px;
+    width: 100%;
+    
+}
+.Footer-content{
+    padding-top: 56px;
+    padding-left: 200px;
+}
+.Footer-content h1{
+    font-size:24px;
+    color:white;
+    padding-bottom: 31px;
+}
+.Footer-content h2{
+    font-size: 13.5px;
+    color:white;
+}
+
+.Footer-subs{
+    display: flex;
+    gap: 9px;
+    padding-top: 26px;
+}
+.Footer-content input{
+   width: 381.44px;
+   height: 41px;
+   background: transparent;
+   border: white;
+   outline: white solid 1px;
+   border-radius: 30px;
+   color: white;
+}
+.Footer-content ::placeholder{
+    padding-left: 20px;
+}
+
+.Footer-content button{
+    height: 41px;
+    width: 69px;
+    background: transparent;
+    border: white;
+    outline: white solid 1px;
+    border-radius: 30px;
+}
+.Footer-content button{
+    text-align: center;
+    color: white;
+}
+
+.Footer-foot{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 61px;
+    color: #E85A4F;
+}
+.Footer-foot span{
+    font-size:14px
+}
+.Footer-foot p{
+    font-size:18px
+}
+
+.footer-nav a{
+    outline: none;
+    color: #E85A4F;
+    text-decoration: none;
+}
+.footer-nav li{
+    list-style-type: none;
+    font-size: 14px; 
+}
+.footer-nav ul{
+    display:flex;
+    gap: 10px;
+
+}
