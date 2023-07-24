@@ -76,7 +76,7 @@ nav ul li a:hover{
 .login:hover{
     color:#09282A;
     border: 0.5px solid #09282A;
-    background-color:#EFF4F0;  
+    background-color:#EFF4F0;
 }
 /* NAVBAR END */
 
@@ -100,5 +100,32 @@ nav ul li a:hover{
 .flex-body div:not([class*="flex"]) {
     flex: 1 1 200px; /*HEIGHT*/
     width: 600px;
+}
+
+.image-stick {
+    position: relative;
+    top: 20px;
+    left: 910px;
+  }
+
+.image-1 {
+    position: relative;
+    top: 20;
+    left: 0;
+  }
+.image-1 img{
+    width:413px;
+    height:569px;
+}
+  
+.image-2 {
+    position: absolute;
+    top: 220px;
+    left: -185px;
+    
+}
+.image-2 img{
+    width:413px;
+    height:491px;
 }
 
