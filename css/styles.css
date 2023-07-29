@@ -1,3 +1,16 @@
+@font-face {
+    font-family: Lora;
+    src : url(../fonts/Lora2.ttf);
+}
+@font-face {
+    font-family: Comfortaa;
+    src : url(../fonts/Comfortaa.ttf);
+}
+@font-face {
+    font-family: NunitoSans;
+    src : url(../fonts/NunitoSans.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +27,7 @@
     background-repeat: no-repeat;
 }
 
-.nav-1{
+.nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,6 +41,10 @@
     display: flex;
     align-items: center;
     gap: 50px; 
+}
+
+.left-nav .logo a{
+    font-family: Comfortaa;
 }
 
 .left-nav h2 a{
@@ -91,18 +108,18 @@ nav ul li a:hover{
     padding-right: 10%;
 }
 
-.intro{
+.intro-content{
     flex: 10;
     margin-right: 35px;
     margin-top: 35px;
 }
 
-.intro-container .intro h1{
+.intro-container .intro-content h1{
     color: #EFF4F0;
     font-size: 70px;
 }
 
-.intro-container .intro p{
+.intro-container .intro-content p{
     color: #EFF4F0;
     margin-top: 25px;
     line-height: 1.35;
@@ -129,11 +146,11 @@ nav ul li a:hover{
     border: 1px solid #E85A4F;
 }
 
-.img{
+.intro-img{
     flex: 90;
 }
 
-.img img{
+.intro-img img{
     border-radius: 30px;
 }
 /* CONTENT END */
@@ -161,7 +178,7 @@ nav ul li a:hover{
     background-color: #EFF4F0;
 }
 
-.section-3 .container-2{
+.section-3 .section-3-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -246,7 +263,7 @@ nav ul li a:hover{
     background-color: #FFFFFF;
 }
 
-.section-4 .container-3{
+.section-4 .section-4-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -328,7 +345,7 @@ nav ul li a:hover{
     
 }
 
-.section-5 .container-4{
+.section-5 .section-5-container{
     position: relative;
     width: 1200px;
     height: 1000px;
@@ -493,7 +510,6 @@ nav ul li a:hover{
 .footer-nav ul{
     display:flex;
     gap: 10px;
-
 }
 
 

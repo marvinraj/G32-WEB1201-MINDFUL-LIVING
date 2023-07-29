@@ -72,3 +72,226 @@ nav ul li a:hover{
     background-color:#EFF4F0;  
 }
 /* NAVBAR END */
+
+/* SECTION 1 - start */
+.section-1{
+    background-color: #D9D9D9;
+    min-height: 60vh;
+    width: 100%;
+}
+
+.section-1-container{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sign-up{
+    padding-top: 26px;
+}
+
+.section-1-container h1{
+    margin-bottom: 10px;
+}
+
+.section-1-container h3{
+    margin-bottom: 10px;
+}
+
+.section-1-container p{
+    white-space: pre-line;
+}
+
+.sign-up input{
+   width: 381.44px;
+   height: 41px;
+   background: transparent;
+   border: black;
+   outline: black solid 1px;
+   border-radius: 30px;
+   color: black;
+}
+
+.sign-up button{
+    height: 41px;
+    width: 80px;
+    background: transparent;
+    border: black;
+    outline: black solid 1px;
+    border-radius: 30px;
+}
+.sign-up button{
+    text-align: center;
+    color: black;
+}
+
+.sign-up ::placeholder{
+    padding-left: 20px;
+}
+/* CONTENT 1 - END */
+
+
+/* CONTENT 2 - START */
+.section-2{
+    background-color: #ffffff;
+}
+
+.section-2-container{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-2-container .extra-news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 100px;
+}
+
+.extra-news .extra-left{
+    width: auto;
+    height: auto;
+    background-color:aqua;
+}
+
+.extra-news .extra-left h1{
+    margin-bottom: 10px;
+}
+
+.extra-news .extra-right{
+    width: auto;
+    height: auto;
+    background-color:aqua;
+    text-align: center;
+}
+
+.extra-news .extra-right h1{
+    margin-bottom: 10px;
+}
+
+.extra-news .extra-left p:nth-child(3), 
+.extra-news .extra-right p:nth-child(2){
+    margin-bottom: 35px;
+}
+
+.section-2-container p{
+    white-space: pre-line;
+}
+
+.sign-up-extra input{
+    width: 381.44px;
+    height: 41px;
+    background: transparent;
+    border: black;
+    outline: black solid 1px;
+    border-radius: 30px;
+    color: black;
+    margin-bottom: 8px;
+ }
+ 
+ .sign-up-extra button{
+     height: 41px;
+     width: 381.44px;
+     background: transparent;
+     border: black;
+     outline: black solid 1px;
+     border-radius: 30px;
+     display: block;
+     margin-top: 5px;
+ }
+ 
+ .sign-up-extra button{
+     text-align: center;
+     color: black;
+ }
+ 
+ .sign-up-extra ::placeholder{
+     padding-left: 20px;
+ }
+
+/* footer */
+.Footer{
+    height: 336px;
+    width: 100%;
+    
+}
+.Footer-content{
+    padding-top: 56px;
+    padding-left: 200px;
+}
+.Footer-content h1{
+    font-size:24px;
+    color:white;
+    padding-bottom: 31px;
+}
+.Footer-content h2{
+    font-size: 13.5px;
+    color:white;
+}
+
+.Footer-subs{
+    display: flex;
+    gap: 9px;
+    padding-top: 26px;
+}
+.Footer-content input{
+   width: 381.44px;
+   height: 41px;
+   background: transparent;
+   border: white;
+   outline: white solid 1px;
+   border-radius: 30px;
+   color: white;
+}
+.Footer-content ::placeholder{
+    padding-left: 20px;
+}
+
+.Footer-content button{
+    height: 41px;
+    width: 69px;
+    background: transparent;
+    border: white;
+    outline: white solid 1px;
+    border-radius: 30px;
+}
+.Footer-content button{
+    text-align: center;
+    color: white;
+}
+
+.Footer-foot{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 61px;
+    color: #E85A4F;
+}
+.Footer-foot span{
+    font-size:14px
+}
+.Footer-foot p{
+    font-size:18px
+}
+
+.footer-nav a{
+    outline: none;
+    color: #E85A4F;
+    text-decoration: none;
+}
+.footer-nav li{
+    list-style-type: none;
+    font-size: 14px; 
+}
+.footer-nav ul{
+    display:flex;
+    gap: 10px;
+
+}
+
+.Footer{
+    position:absolute;
+    top: 145%;
+
+
+}
