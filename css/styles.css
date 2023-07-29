@@ -433,6 +433,22 @@ nav ul li a:hover{
     color: #09282A;
 }
 
+.section-2{
+    padding-left: 150px;
+}
+
+.image1{
+    display: flex;
+    gap: 20px;
+}
+.section-2-container h1{
+    padding-bottom: 30px;
+}
+.image-sub-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
 /* FOOTER */
 .Footer{
