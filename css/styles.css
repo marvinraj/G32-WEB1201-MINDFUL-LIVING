@@ -18,6 +18,18 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+
+.category{
+    font-family: Comfortaa;
+    font-size: 8px;
+    color: #E85A4F;
+    letter-spacing: 2px;
+}
+
 /* NAVBAR START */
 .section-1{
     height: 100vh;
@@ -44,13 +56,13 @@
 }
 
 .left-nav .logo a{
-    font-family: Comfortaa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .left-nav h2 a{
     color: #E85A4F;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 nav ul li{
@@ -60,6 +72,7 @@ nav ul li{
 }
 
 nav ul li a{
+    font-family: comfortaa;
     color: #EFF4F0;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -115,6 +128,7 @@ nav ul li a:hover{
 }
 
 .intro-container .intro-content h1{
+    font-weight: 800;
     color: #EFF4F0;
     font-size: 70px;
 }
@@ -157,13 +171,27 @@ nav ul li a:hover{
 
 /* SECTION 2 - TRENDING THIS WEEK */
 .section-2{
-    height: 100vh;
+    height: 950px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .section-2 h1{
     font-size: 32px;
-    margin-top: 100px;
+    margin-top: 150px;
+    padding-bottom: 30px;
+}
+
+.image1{
+    display: flex;
+    gap: 20px;
+}
+
+.image-sub-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 /* SECTION 3 - MINDFUL LIVING */
@@ -214,15 +242,9 @@ nav ul li a:hover{
     border-radius: 30px;
 }
 
-.content-section .card p{
+.content-section .card p:nth-child(2){
     font-size: 13.5px;
     margin-top: 20px;
-}
-
-.content-section .card .category{
-    font-size: 11px;
-    color: #E85A4F;
-    letter-spacing: 2px;
 }
 
 .content-section .card{
@@ -302,12 +324,6 @@ nav ul li a:hover{
 .content-section .card p{
     font-size: 13.5px;
     margin-top: 20px;
-}
-
-.content-section .card .category{
-    font-size: 11px;
-    color: #E85A4F;
-    letter-spacing: 2px;
 }
 
 .content-section .card{
@@ -431,23 +447,6 @@ nav ul li a:hover{
 .btn-fashion:hover{
     background-color: #ffffff;
     color: #09282A;
-}
-
-.section-2{
-    padding-left: 150px;
-}
-
-.image1{
-    display: flex;
-    gap: 20px;
-}
-.section-2-container h1{
-    padding-bottom: 30px;
-}
-.image-sub-container{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
 }
 
 /* FOOTER */

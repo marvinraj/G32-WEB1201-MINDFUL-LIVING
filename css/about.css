@@ -15,20 +15,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    font-family: Comfortaa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* NAVBAR START */
 .section-1{
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     background-image: url(../images/homepage-img/green-bg.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-.nav-1{ /* navbar for homepage */
+.nav{ /* navbar for homepage */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,10 +43,14 @@
     gap: 50px; 
 }
 
+.left-nav .logo a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .left-nav h2 a{
     color: #E85A4F;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 nav ul li{
@@ -57,6 +60,7 @@ nav ul li{
 }
 
 nav ul li a{
+    font-family: Comfortaa;
     color: #EFF4F0;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -95,27 +99,6 @@ nav ul li a:hover{
 /* NAVBAR END */
 
 /* CONTENT START */
-.flex-body {
-    display: flex;
-    justify-content: center;
-    margin-top: 4%;
-}
-
-.flex-row {
-    flex-direction: row;
-    display: flex;
-}
-
-.flex-column {
-    flex-direction: column;
-    display: flex;
-}
-
-.flex-body div:not([class*="flex"]) {
-    flex: 1 1 200px; /*HEIGHT*/
-    width: 600px;
-}
-
 .image-stick {
     position: absolute;
     top: 180px;
@@ -130,6 +113,7 @@ nav ul li a:hover{
 .image-1 img{
     width:413px;
     height:569px;
+    border-radius: 30px;
 }
   
 .image-2 {
@@ -141,36 +125,45 @@ nav ul li a:hover{
 .image-2 img{
     width:413px;
     height:491px;
+    border-radius: 30px;
 }
 
 .left-content{
     position: absolute;
     width:450px;
-    height:239px;
-    top:120px;
+    height:249px;
+    top:130px;
     left:160px
     
     
 }
 .left-content h1{
-    font-size: 60px;
+    font-size: 55px;
+    font-weight: 400;
     color: white;
-    font-family: Lora;;
 }
-.left-content p{
-    font-size:18px;
+.left-content p{ /* LATO */
+    font-size:15px;
     color: white;
     padding-top: 10px;
 }
+
 .misson-content{
     width:450px;
-    height:305px;
+    height:355px;
     position: absolute;
-    top:60%;
-    left:90px;
+    top:70%;
+    left:10%;
 }
+
 .misson-content h1{
     padding-bottom: 37px;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.mission-content p{ /* LATO */
+    font-size: 14px;
 }
 
 .section-3{
@@ -178,14 +171,17 @@ nav ul li a:hover{
     width:100%;
     background-color: #EFF4F0;
     position: absolute;
-    top:110%
+    top:125%
 }
+
 .section-3-content{
     text-align: center;
-    
 }
+
 .section-3-content h1{
     padding-top: 56px;
+    font-size: 32px;
+    font-weight: 200;
 }
 
 .row,.row2{
@@ -198,7 +194,7 @@ nav ul li a:hover{
     padding-bottom: 39px;
 }
 .comment-1,.comment-2,.comment-3,.comment-4{
-    font-size: 15px;
+    font-size: 13.5px;
     width: 567px;
     height:63px;
     text-align: center;
@@ -207,6 +203,7 @@ nav ul li a:hover{
 .Footer{
     height: 336px;
     width: 100%;
+    margin-top: 150px;
     
 }
 .Footer-content{
@@ -285,6 +282,4 @@ nav ul li a:hover{
 .Footer{
     position:absolute;
     top: 155%;
-
-
 }

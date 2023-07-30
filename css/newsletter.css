@@ -1,3 +1,16 @@
+@font-face {
+    font-family: Lora;
+    src : url(../fonts/Lora2.ttf);
+}
+@font-face {
+    font-family: Comfortaa;
+    src : url(../fonts/Comfortaa.ttf);
+}
+@font-face {
+    font-family: NunitoSans;
+    src : url(../fonts/NunitoSans.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +19,7 @@
 }
 
 /* NAVBAR START */
-.nav-2{ /* navbar for other pages */
+.nav{ /* navbar for other pages */
     background-image: url(../images/newsletter-img/green-bg.jpg);
     display: flex;
     align-items: center;
@@ -23,10 +36,14 @@
     gap: 50px; 
 }
 
+.left-nav .logo a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .left-nav h2 a{
     color: #E85A4F;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 nav ul li{
@@ -36,6 +53,7 @@ nav ul li{
 }
 
 nav ul li a{
+    font-family: Comfortaa;
     color: #EFF4F0;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -76,13 +94,13 @@ nav ul li a:hover{
 /* SECTION 1 - start */
 .section-1{
     background-color: #D9D9D9;
-    min-height: 60vh;
+    min-height: 50vh;
     width: 100%;
 }
 
 .section-1-container{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .sign-up{
@@ -90,15 +108,22 @@ nav ul li a:hover{
 }
 
 .section-1-container h1{
+    font-size: 60px;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
 .section-1-container h3{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
 }
 
-.section-1-container p{
+.section-1-container p{ /* LATO */
     white-space: pre-line;
+    font-size: 13px;
+    line-height:23px;
 }
 
 .sign-up input{
@@ -124,6 +149,12 @@ nav ul li a:hover{
     color: black;
 }
 
+.btn-signup:hover{
+    color:#EFF4F0; 
+    border: 0.5px solid #09282A;
+    background-color: #09282A;
+}
+
 .sign-up ::placeholder{
     padding-left: 20px;
 }
@@ -133,12 +164,17 @@ nav ul li a:hover{
 /* CONTENT 2 - START */
 .section-2{
     background-color: #ffffff;
+    margin-top: 60px;
 }
 
 .section-2-container{
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+}
+
+.section-2-container h2{
+    font-size: 22px;
+    font-weight: 200;
 }
 
 .section-2-container .extra-news{
@@ -152,22 +188,24 @@ nav ul li a:hover{
 .extra-news .extra-left{
     width: auto;
     height: auto;
-    background-color:aqua;
 }
 
 .extra-news .extra-left h1{
-    margin-bottom: 10px;
+    font-style: italic;
+    margin-bottom: 30px;
+    font-size: 45px;
 }
 
 .extra-news .extra-right{
     width: auto;
     height: auto;
-    background-color:aqua;
     text-align: center;
 }
 
 .extra-news .extra-right h1{
-    margin-bottom: 10px;
+    font-style: italic;
+    margin-bottom: 30px;
+    font-size: 45px;
 }
 
 .extra-news .extra-left p:nth-child(3), 
@@ -187,15 +225,15 @@ nav ul li a:hover{
     outline: black solid 1px;
     border-radius: 30px;
     color: black;
-    margin-bottom: 8px;
+    margin-bottom: 18px;
  }
  
  .sign-up-extra button{
      height: 41px;
      width: 381.44px;
      background: transparent;
-     border: black;
-     outline: black solid 1px;
+     border: #E85A4F;
+     outline: #E85A4F solid 1px;
      border-radius: 30px;
      display: block;
      margin-top: 5px;
@@ -203,9 +241,14 @@ nav ul li a:hover{
  
  .sign-up-extra button{
      text-align: center;
-     color: black;
+     color: #E85A4F;
  }
  
+ .sign-up-extra button:hover{
+    color: #EFF4F0;
+    background-color: #E85A4F;
+}
+
  .sign-up-extra ::placeholder{
      padding-left: 20px;
  }
