@@ -247,6 +247,7 @@ nav ul li a:hover{
 }
 
 .Footer-content button{
+    cursor: pointer;
     height: 41px;
     width: 69px;
     background: transparent;
@@ -255,6 +256,7 @@ nav ul li a:hover{
     border-radius: 30px;
 }
 .Footer-content button{
+    cursor: pointer;
     text-align: center;
     color: white;
 }
@@ -285,6 +287,12 @@ nav ul li a:hover{
     display:flex;
     gap: 10px;
 
+}
+
+#messageBoxFooter{
+    display: none;
+    color: #E85A4F;
+    font-style: italic;
 }
 
 .Footer{

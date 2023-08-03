@@ -31,12 +31,13 @@
         <div class="box">
             <div class="inner-box">
               <div class="forms-wrap">
+                <!-- LOGIN FORM  -->
                 <form action="index.html" autocomplete="off" class="sign-in-form">
                   <div class="logo">
                     <img src="./images/logo.png" alt="easyclass" />
                     <h4>mindful living</h4>
                   </div>
-    
+
                   <div class="heading">
                     <h2>Welcome Back</h2>
                     <h6>Not registred yet?</h6>
@@ -45,83 +46,46 @@
     
                   <div class="actual-form">
                     <div class="input-wrap">
-                      <input
-                        type="text"
-                        minlength="4"
-                        class="input-field"
-                        autocomplete="off"
-                        required
-                      />
+                      <input type="text" minlength="4" class="input-field" autocomplete="off" required/>
                       <label>Name</label>
                     </div>
     
                     <div class="input-wrap">
-                      <input
-                        type="password"
-                        minlength="4"
-                        class="input-field"
-                        autocomplete="off"
-                        required
-                      />
+                      <input type="password" minlength="4" class="input-field" autocomplete="off" required/>
                       <label>Password</label>
                     </div>
-    
                     <input type="submit" value="Sign In" class="sign-btn" />
-    
                     <p class="text">
                       Forgotten your password or you login datails?
                       <a href="#">Get help</a> signing in
                     </p>
                   </div>
                 </form>
-    
+                <!-- SIGN UP FORM -->
                 <form action="index.html" autocomplete="off" class="sign-up-form">
                   <div class="logo">
                     <img src="./images/logo.png" alt="easyclass" />
                     <h4>mindful living</h4>
                   </div>
-    
                   <div class="heading">
                     <h2>Get Started</h2>
                     <h6>Already have an account?</h6>
                     <a href="#" class="toggle">Sign in</a>
                   </div>
-    
                   <div class="actual-form">
                     <div class="input-wrap">
-                      <input
-                        type="text"
-                        minlength="4"
-                        class="input-field"
-                        autocomplete="off"
-                        required
-                      />
+                      <input type="text" minlength="4" class="input-field" autocomplete="off" required/>
                       <label>Name</label>
                     </div>
-    
                     <div class="input-wrap">
-                      <input
-                        type="email"
-                        class="input-field"
-                        autocomplete="off"
-                        required
-                      />
+                      <input type="email" class="input-field" autocomplete="off" required/>
                       <label>Email</label>
                     </div>
-    
                     <div class="input-wrap">
-                      <input
-                        type="password"
-                        minlength="4"
-                        class="input-field"
-                        autocomplete="off"
-                        required
-                      />
+                      <input type="password" minlength="4" class="input-field" autocomplete="off" required/>
                       <label>Password</label>
                     </div>
-    
                     <input type="submit" value="Sign Up" class="sign-btn"/>
-    
                     <p class="text">
                       By signing up, I agree to the
                       <a href="#">Terms of Services</a> and
@@ -163,9 +127,12 @@
             <h2>Join 100,000 subscribers who start their day with soothing playlists, sustainable recipes, inspiring articles, and more</h2>
 
             <div class="Footer-subs">
-                <input type="text" placeholder="Email address">
-                <button>JOIN</button>
-            </div>
+              <input id="hideInputFooter" type="text" placeholder="Email address">
+              <button id="clickButtonFooter" onclick="showMessageFooter()">JOIN</button>
+          </div>
+          <div id="messageBoxFooter" class="hidden">
+              <h3>Thank you! Check your inbox for a confirmation email.</h3>
+          </div>
 
         </div>
         <div class="Footer-foot">
@@ -187,5 +154,6 @@
 
 
     <script src="./script/login.js"></script>
+    <script src="./script/footer.js"></script>
 </body>
 </html>

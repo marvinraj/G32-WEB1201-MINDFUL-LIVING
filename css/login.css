@@ -11,7 +11,7 @@
 }
 
 /* NAVBAR START */
-.nav{ /* navbar for other pages */
+.nav{ 
     background-image: url(../images/newsletter-img/green-bg.jpg);
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@
     padding-right: 6%;
 }
 
-.left-nav{ /* left side of nav -- logo and categories */
+.left-nav{ 
     display: flex;
     align-items: center;
     gap: 50px; 
@@ -258,6 +258,7 @@ main {
     color: #8371fd;
   }
   
+  /* alone */
   main.sign-up-mode form.sign-in-form {
     opacity: 0;
     pointer-events: none;
@@ -372,6 +373,7 @@ main {
     border-radius: 1rem;
   }
   
+  /* MEDIA */
   @media (max-width: 850px) {
     .box {
       height: auto;
@@ -548,4 +550,10 @@ main {
     top: 110%;
 
 
+}
+
+#messageBoxFooter{
+  display: none;
+  color: #E85A4F;
+  font-style: italic;
 }

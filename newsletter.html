@@ -36,8 +36,11 @@
                 recipes, inspiring articles, and more. Join 225,000 readers, for free.
             </p>
             <div class="sign-up">
-                <input type="text" placeholder="Email address">
-                <button class="btn-signup">SIGN UP</button>
+                <input id="hideInput1" type="text" placeholder="Email address">
+                <button id="clickButton1" onclick="showMessage1()" class="btn-signup">SIGN UP</button>
+            </div>
+            <div id="messageBox1" class="thank-you hidden">
+                <h3>Thank you! Check your inbox for a confirmation email.</h3>
             </div>
         </div>
     </section>
@@ -50,8 +53,12 @@
                     <p>Our top read articles of the week.</p>
                     <p>Delivered in a weekly digest on Mondays.</p>
                     <div class="sign-up-extra">
-                        <input type="text" placeholder="Email address">
-                        <button>SIGN UP</button>
+                        <input id="hideInput2" type="text" placeholder="Email address">
+                        <button id="clickButton2" onclick="showMessage2()">SIGN UP</button>
+                    </div>
+                    <div id="messageBox2" class="hidden">
+                        <h3>Thank you! Check your inbox for</h3>
+                        <h3>a confirmation email.</h3>
                     </div>
                 </div>
                 <div class="extra-right">
@@ -60,8 +67,12 @@
                         more! Delivered in a digest on Thursdays.
                     </p>
                     <div class="sign-up-extra">
-                        <input type="text" placeholder="Email address">
-                        <button>SIGN UP</button>
+                        <input id="hideInput3" type="text" placeholder="Email address">
+                        <button id="clickButton3" onclick="showMessage3()">SIGN UP</button>
+                    </div>
+                    <div id="messageBox3" class="hidden">
+                        <h3>Thank you! Check your inbox for</h3>
+                        <h3>a confirmation email.</h3>
                     </div>
                 </div>
             </div>
@@ -74,8 +85,11 @@
             <h2>Join 100,000 subscribers who start their day with soothing playlists, sustainable recipes, inspiring articles, and more</h2>
 
             <div class="Footer-subs">
-                <input type="text" placeholder="Email address">
-                <button>JOIN</button>
+                <input id="hideInputFooter" type="text" placeholder="Email address">
+                <button id="clickButtonFooter" onclick="showMessageFooter()">JOIN</button>
+            </div>
+            <div id="messageBoxFooter" class="hidden">
+                <h3>Thank you! Check your inbox for a confirmation email.</h3>
             </div>
 
         </div>
@@ -95,5 +109,7 @@
             
         </div>
     </div>
+    <script src="./script/newsletter.js"></script>
+    <script src="./script/footer.js"></script>
 </body>
 </html>
