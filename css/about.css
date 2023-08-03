@@ -1,14 +1,14 @@
 @font-face {
-    font-family: Lora;
-    src : url(../fonts/Lora2.ttf);
-}
-@font-face {
     font-family: Comfortaa;
     src : url(../fonts/Comfortaa.ttf);
 }
 @font-face {
-    font-family: NunitoSans;
-    src : url(../fonts/NunitoSans.ttf);
+    font-family: Lato;
+    src : url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: LatoLight;
+    src : url(../fonts/Lato/Lato-Light.ttf);
 }
 
 *{
@@ -68,6 +68,9 @@ nav ul li a{
     font-size: 11px;
     font-weight: lighter;
     transition: 0.5s;
+}
+nav ul li a.active-page{
+    color: #E85A4F;
 }
 
 nav ul li a:hover{
@@ -143,12 +146,15 @@ nav ul li a:hover{
     color: white;
 }
 .left-content p{ /* LATO */
-    font-size:15px;
+    font-family: LatoLight;
+    line-height: 150%;
+    font-size:17px;
     color: white;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
-.misson-content{
+/* MISSION */
+.mission-content{
     width:450px;
     height:355px;
     position: absolute;
@@ -156,14 +162,16 @@ nav ul li a:hover{
     left:10%;
 }
 
-.misson-content h1{
+.mission-content h1{
     padding-bottom: 37px;
     font-size: 32px;
     font-weight: 200;
 }
 
-.mission-content p{ /* LATO */
-    font-size: 14px;
+.content .mission-content p{ /* LATO */
+    font-family: LatoLight;
+    font-size: 17px;
+    line-height: 150%;
 }
 
 .section-3{

@@ -1,14 +1,14 @@
 @font-face {
-    font-family: Lora;
-    src : url(../fonts/Lora2.ttf);
-}
-@font-face {
     font-family: Comfortaa;
     src : url(../fonts/Comfortaa.ttf);
 }
 @font-face {
-    font-family: NunitoSans;
-    src : url(../fonts/NunitoSans.ttf);
+    font-family: Lato;
+    src : url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: LatoLight;
+    src : url(../fonts/Lato/Lato-Light.ttf);
 }
 
 *{
@@ -60,7 +60,10 @@ nav ul li a{
     text-decoration: none;
     font-size: 11px;
     font-weight: lighter;
-    transition: 0.5s;
+    transition: 1s;
+}
+nav ul li a.active-page{
+    color: #E85A4F;
 }
 
 nav ul li a:hover{
@@ -81,7 +84,7 @@ nav ul li a:hover{
     border-radius: 20px;
     width: 90px;
     padding: 10px 0;
-    transition: 0.4s;
+    transition: 1s;
 }
 
 .login:hover{
@@ -121,8 +124,9 @@ nav ul li a:hover{
 }
 
 .section-1-container p{ /* LATO */
+    font-family: LatoLight;
     white-space: pre-line;
-    font-size: 13px;
+    font-size: 15px;
     line-height:23px;
 }
 
@@ -147,6 +151,11 @@ nav ul li a:hover{
 .sign-up button{
     text-align: center;
     color: black;
+}
+
+.btn-signup{
+    cursor: pointer;
+    transition: 1s;
 }
 
 .btn-signup:hover{
@@ -214,7 +223,9 @@ nav ul li a:hover{
 }
 
 .section-2-container p{
+    font-size: 16px;
     white-space: pre-line;
+    font-family: LoraLight;
 }
 
 .sign-up-extra input{
@@ -242,6 +253,8 @@ nav ul li a:hover{
  .sign-up-extra button{
      text-align: center;
      color: #E85A4F;
+     transition: 1s;
+     cursor: pointer;
  }
  
  .sign-up-extra button:hover{
