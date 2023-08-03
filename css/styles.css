@@ -1,14 +1,14 @@
 @font-face {
-    font-family: Lora;
-    src : url(../fonts/Lora2.ttf);
-}
-@font-face {
     font-family: Comfortaa;
     src : url(../fonts/Comfortaa.ttf);
 }
 @font-face {
-    font-family: NunitoSans;
-    src : url(../fonts/NunitoSans.ttf);
+    font-family: Lato;
+    src : url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: LatoLight;
+    src : url(../fonts/Lato/Lato-Light.ttf);
 }
 
 *{
@@ -28,6 +28,7 @@ h1{
     font-size: 8px;
     color: #E85A4F;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
 /* NAVBAR START */
@@ -79,7 +80,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 11px;
     font-weight: lighter;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 nav ul li a:hover{
@@ -100,14 +101,15 @@ nav ul li a:hover{
     border-radius: 20px;
     width: 90px;
     padding: 10px 0;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 .login:hover{
     color:#ffffff;
-    border: 0.5px solid #09282A;
+    border: 1px solid #09282A;
     background-color:#09282A;  
 }
+
 /* NAVBAR END */
 
 
@@ -135,11 +137,14 @@ nav ul li a:hover{
 
 .intro-container .intro-content p{
     color: #EFF4F0;
+    font-size: 18px;
     margin-top: 25px;
     line-height: 1.35;
+    font-family: LatoLight;
 }
 
 .btn{
+    font-family: Lato;
     background-color: #E85A4F;
     display: inline-block;
     border: none;
@@ -151,7 +156,7 @@ nav ul li a:hover{
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 1s;
 }
 
 .btn:hover{
@@ -188,11 +193,31 @@ nav ul li a:hover{
     gap: 20px;
 }
 
+.image1 img{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.image1 img:hover{
+    box-shadow: 0 0 40px 0px rgba(0,0,0,0.2);
+    filter: brightness(80%);   
+}
+
 .image-sub-container{
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
+
+.image-sub-container img{
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.image-sub-container img:hover{
+    box-shadow: 0 0 40px 0px rgba(0,0,0,0.2);
+}
+
 
 /* SECTION 3 - MINDFUL LIVING */
 .section-3{
@@ -240,6 +265,18 @@ nav ul li a:hover{
     width: 100%;
     height: auto;
     border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.content-section .card img:hover{
+    box-shadow: 0 0 40px 0px rgba(0,0,0,0.2);
+}
+
+.content-section a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
 }
 
 .content-section .card p:nth-child(2){
@@ -253,6 +290,7 @@ nav ul li a:hover{
 }
 
 .btn-read{
+    font-family: Lato;
     background-color: #082E21;
     border: none;
     border-radius: 25px;
@@ -264,7 +302,7 @@ nav ul li a:hover{
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 1s;
 }
 
 .btn-read:hover{
@@ -332,6 +370,7 @@ nav ul li a:hover{
 }
 
 .btn-read{
+    font-family: Lato;
     background-color: #082E21;
     border: none;
     border-radius: 25px;
@@ -343,7 +382,7 @@ nav ul li a:hover{
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 1s;
 }
 
 .btn-read:hover{
@@ -430,6 +469,7 @@ nav ul li a:hover{
 }
 
 .btn-fashion{
+    font-family: Lato;
     background-color: rgba(255,255,255,0);
     border: 0.5px solid #ffffff;
     border-radius: 25px;
@@ -441,7 +481,7 @@ nav ul li a:hover{
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 1s;
 }
 
 .btn-fashion:hover{

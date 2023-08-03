@@ -1,15 +1,6 @@
 @font-face {
-    font-family: Lora;
-    src : url(../fonts/Lora2.ttf);
-}
-
-@font-face {
     font-family: Comfortaa;
     src : url(../fonts/Comfortaa.ttf);
-}
-@font-face {
-    font-family: NunitoSans;
-    src : url(../fonts/NunitoSans.ttf);
 }
 
 *{
@@ -101,21 +92,6 @@ nav ul li a:hover{
 /* NAVBAR END */
 
 /*Heading*/
-.Title-heading{
-    text-align:center;
-    padding-top: 53px;
-}
-
-.Title-heading h3{
-    font-size: 13px; 
-    color:#E85A4F;
-}
-
-.Title-heading h1{
-    font-size: 32px;
-    font-weight: 200;
-    color: #202020;
-}
 
 .top-content{
     width: 1133px;
@@ -136,20 +112,25 @@ nav ul li a:hover{
 }
 .top-content{
     padding-top:120px;
-    
+    margin-bottom: 65px;
 }
+
+.top-content .top-content-p{
+    font-size: 16px;
+    line-height: 130%;
+}
+
+
 .page-content{
     margin-left: 150px;
     width: 1133px;
-   
 }
 
 
 .section-1{
     padding-top:39px;
-    
-    
 }
+
 .img-section{
     display: flex;
     gap: 24px;
@@ -158,10 +139,9 @@ nav ul li a:hover{
 
 .section-1-button{
     text-align: center;
-    text-decoration: none;
-    
-    
+    text-decoration: none; 
 }
+
 .section-1 button,.section-2 button,.section-3 button,.section-4 button, .section-5 button{
     width: 197px;
     height: 42px;
@@ -171,10 +151,10 @@ nav ul li a:hover{
     color: #E85A4F;
 }
 
-
 .SECTIONS h1{
     padding-bottom: 30px;
 }
+
 .SECTIONS p{
     padding-bottom:20px;
 }
@@ -183,12 +163,9 @@ nav ul li a:hover{
     padding-bottom:100px;
 }
 
-
-
 .section-5{
     padding-top: 100px;
     padding-bottom: 100px;
-    
 }
 
 .end-section h1{
@@ -199,6 +176,7 @@ nav ul li a:hover{
     text-align: center;
     padding-bottom: 45px;
 }
+
 .last-content-img-wrapper{
     width:264px;
     height: 456px;
