@@ -131,6 +131,7 @@ nav ul li a:hover{
 }
 
 .sign-up input{
+   cursor: pointer;
    width: 381.44px;
    height: 41px;
    background: transparent;
@@ -166,6 +167,16 @@ nav ul li a:hover{
 
 .sign-up ::placeholder{
     padding-left: 20px;
+}
+
+#messageBox1{
+    background-color: #E85A4F;
+    padding: 7px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    display: none;
 }
 /* CONTENT 1 - END */
 
@@ -266,6 +277,23 @@ nav ul li a:hover{
      padding-left: 20px;
  }
 
+ #messageBox2{
+    background-color: #EFF4F0;
+    display: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: italic;
+ }
+ #messageBox3{
+    background-color: #EFF4F0;
+    display: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: italic;
+ }
+
 /* footer */
 .Footer{
     height: 336px;
@@ -305,6 +333,7 @@ nav ul li a:hover{
 }
 
 .Footer-content button{
+    cursor: pointer;
     height: 41px;
     width: 69px;
     background: transparent;
@@ -343,6 +372,12 @@ nav ul li a:hover{
     display:flex;
     gap: 10px;
 
+}
+
+#messageBoxFooter{
+    display: none;
+    color: #E85A4F;
+    font-style: italic;
 }
 
 .Footer{

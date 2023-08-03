@@ -159,8 +159,11 @@
             <h2>Join 100,000 subscribers who start their day with soothing playlists, sustainable recipes, inspiring articles, and more</h2>
 
             <div class="Footer-subs">
-                <input type="text" placeholder="Email address">
-                <button>JOIN</button>
+                <input id="hideInputFooter" type="text" placeholder="Email address">
+                <button id="clickButtonFooter" onclick="showMessageFooter()">JOIN</button>
+            </div>
+            <div id="messageBoxFooter" class="hidden">
+                <h3>Thank you! Check your inbox for a confirmation email.</h3>
             </div>
 
         </div>
@@ -180,5 +183,6 @@
             
         </div>
     </div>
+    <script src="./script/footer.js"></script>
 </body>
 </html>

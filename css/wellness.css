@@ -297,3 +297,9 @@ nav ul li a:hover{
     gap: 10px;
 
 }
+
+#messageBoxFooter{
+    display: none;
+    color: #E85A4F;
+    font-style: italic;
+}

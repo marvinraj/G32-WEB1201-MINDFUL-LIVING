@@ -70,14 +70,12 @@ nav ul li a.active-page{
 nav ul li a:hover{
     color: #E85A4F;
 }
-
 .right-nav{
     display: flex;
     align-items: center;
     gap: 50px;
 }
-
-.right-nav button{ /* right side of nav -- icons*/
+.right-nav button{
     color:#EFF4F0;
     border: 0.5px solid #EFF4F0;
     background-color: rgba(255,255,255,0);
@@ -87,7 +85,6 @@ nav ul li a:hover{
     padding: 10px 0;
     transition: 0.4s;
 }
-
 .login:hover{
     color:#09282A;
     border: 0.5px solid #09282A;
@@ -255,7 +252,6 @@ nav ul li a:hover{
 .Footer-content ::placeholder{
     padding-left: 20px;
 }
-
 .Footer-content button{
     height: 41px;
     width: 69px;
@@ -268,7 +264,6 @@ nav ul li a:hover{
     text-align: center;
     color: white;
 }
-
 .Footer-foot{
     display: flex;
     justify-content: space-around;
@@ -281,7 +276,6 @@ nav ul li a:hover{
 .Footer-foot p{
     font-size:18px
 }
-
 .footer-nav a{
     outline: none;
     color: #E85A4F;
@@ -294,5 +288,9 @@ nav ul li a:hover{
 .footer-nav ul{
     display:flex;
     gap: 10px;
-
+}
+#messageBoxFooter{
+    display: none;
+    color: #E85A4F;
+    font-style: italic;
 }
