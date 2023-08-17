@@ -1,2 +1,2 @@
-# G32-WEB1201-MINDFUL-LIVING
-Final Project - WEB 1201
+# G32-WEB1201-Mindful-Living
+CS Final Project - WEB1201
